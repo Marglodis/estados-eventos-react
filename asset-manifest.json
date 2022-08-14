@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/estados-eventos-react/static/css/main.3ef25833.css",
+    "main.js": "/estados-eventos-react/static/js/main.f9cd0595.js",
+    "index.html": "/estados-eventos-react/index.html",
+    "main.3ef25833.css.map": "/estados-eventos-react/static/css/main.3ef25833.css.map",
+    "main.f9cd0595.js.map": "/estados-eventos-react/static/js/main.f9cd0595.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ef25833.css",
+    "static/js/main.f9cd0595.js"
+  ]
+}
