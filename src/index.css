@@ -11,3 +11,73 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+min-height: 100vh;
+background: #4e54c8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}  
+
+form{
+  display: flex;
+  flex-direction: column;
+  background: white;
+  text-align: center;
+  padding: 20px 25px;
+  box-shadow: 0px 5px 10px rgba(71,3,6,0.7);
+  border-radius: 5px;
+}
+
+form .title {
+  color: #252525;
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+label{
+  margin-bottom: 35px;
+}
+
+form label .fa-solid {
+font-size: 20px;
+color: #8f94fb;
+margin-right: 10px;
+}
+
+form label input {
+  outline: none;
+  border: none;
+  color: #252525;
+  border-bottom:#8f94fb solid 1px;
+  padding: 0 5px;
+  font-size: 18px;
+}
+
+form label input::placeholder{
+  color:rgba(37, 37, 37, 0.5);
+}
+
+button{
+  color:#fff;
+  border: none;
+  background: #4e54c8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 20px;
+  
+}
+
+p {
+  color:red;
+}
